@@ -1,16 +1,21 @@
+import { CarroselModule } from './shared/components/carrossel/carrossel.module';
 import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CardComponent } from './shared/components/card/card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
-    CoreModule
+    CoreModule,
+    CarroselModule,
+    CarroselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

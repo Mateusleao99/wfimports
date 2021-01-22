@@ -1,0 +1,21 @@
+.tituloProduto{
+  color: #6c6c6c;
+}
+.valorProduto{
+  font-size: larger;
+}
+.parcelaProduto{
+  font-size:small ;
+}
+.imagemCard{
+  padding-top: 10px;
+}
+
+.customCard{
+  padding: 10px;
+  margin: 10px;
+}
+.customCard:hover{
+  box-shadow: #6c6c6c 4px 4px 4px 4px;
+  border: 1;
+}
