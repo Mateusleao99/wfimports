@@ -1,4 +1,3 @@
-import { ProdutoService } from './services/produto.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,11 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  produto:any = [];
-
-  constructor(private produtoService: ProdutoService) {}
+  constructor() {}
 
   ngOnInit() {
-    this.produto = this.produtoService.getProdutos();
+  
   }
 }

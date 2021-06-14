@@ -1,12 +1,1 @@
-<app-header></app-header>
-<app-carrossel></app-carrossel>
-<div *ngFor="let item of produto">
-    <app-card 
-    url= {{item.url}}
-    description={{item.description}}
-    nomeProduto={{item.nomeProduto}}
-    valorProduto={{item.valorProduto}}
-    parcelaProduto={{item.parcelaProduto}}
-></app-card>
-</div>
-
+<router-outlet></router-outlet>
