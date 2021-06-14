@@ -1,37 +1,15 @@
-<div class="container-fluid card-deck">
-  <div class="card customCard" style="width: 18rem;">
+<div class="container-fluid">
+  <div class="card customCard">
       <div class="container imagemCard">
-          <img class="card-img-top" src="../../../../assets/img/relogio.png" alt="Card image cap">
+          <img class="card-img-top" [src]="url" [alt]="description">
       </div>
       <div class="card-body">
-          <p class="tituloProduto">Relógio Digital Mormaii MO3415 - Masculino</p>
-          <a class="valorProduto">R$139,90</a>
-          <p class="parcelaProduto">Até 4x de R$50,00 sem juros</p>
-          <a href="#" class="btn btn-outline-success">Adicionar ao carrinho</a>
+          <p class="tituloProduto">{{nomeProduto}}</p>
+          <p class="valorProduto">{{valorProduto}}</p>
+          <p class="parcelaProduto">{{parcelaProduto}}</p>
       </div>
-  </div>
-
-  <div class="card customCard" style="width: 18rem;">
-      <div class="container imagemCard">
-          <img class="card-img-top" src="../../../../assets/img/relogio.png" alt="Card image cap">
-      </div>
-      <div class="card-body">
-          <p class="tituloProduto">Relógio Digital Mormaii MO3415 - Masculino</p>
-          <a class="valorProduto">R$139,90</a>
-          <p class="parcelaProduto">Até 4x de R$50,00 sem juros</p>
-          <a href="#" class="btn btn-outline-success">Adicionar ao carrinho</a>
-      </div>
-  </div>
-
-  <div class="card customCard" style="width: 18rem;">
-      <div class="container imagemCard">
-          <img class="card-img-top" src="../../../../assets/img/relogio.png" alt="Card image cap">
-      </div>
-      <div class="card-body">
-          <p class="tituloProduto">Relógio Digital Mormaii MO3415 - Masculino</p>
-          <a class="valorProduto">R$139,90</a>
-          <p class="parcelaProduto">Até 4x de R$50,00 sem juros</p>
-          <a href="#" class="btn btn-outline-success">Adicionar ao carrinho</a>
+      <div class="card-footer footerCard">
+        <a href="#" class="btn btn-outline-success ">Adicionar ao carrinho</a>
       </div>
   </div>
 </div>
