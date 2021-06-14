@@ -15,9 +15,14 @@
   padding: 10px;
   margin: 10px;
   width: 16.625rem;
+  height: 34rem;
 
 }
 .customCard:hover{
   box-shadow: #6c6c6c 4px 4px 4px 4px;
   border: 1;
+}
+.footerCard{
+  background: transparent;
+  border: none;
 }
